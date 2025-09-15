@@ -63,13 +63,13 @@ console.log("9" * 3);
 //         - "Child" if age < 13
 //         - "Young" if age is between 13 and 35
 //         - "Aged" if age > 35
-let age = 20;
+let age = prompt("enter your age?");
 if (age < 13) {
-  console.log("Child");
+  alert("Child");
 } else if (age >= 13 && age <= 35) {
-  console.log("Young");
+  alert("Young");
 } else {
-  console.log("Aged");
+  alert("Aged");
 }
 
 // Task 4.2 — Switch statement
